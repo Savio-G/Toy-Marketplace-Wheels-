@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Varela+Round&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .bg-custom {
+  background-image: url('https: //images.unsplash.com/photo-1622481714836-1100101a43cd?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+} */
+
+.custom-clamp {
+  font-size: clamp(1.8rem, 3vw + 1rem, 4rem);
+  ;
+}
